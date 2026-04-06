@@ -1,0 +1,14 @@
+{
+  "name": "travlog-ai",
+  "displayName": "Travlog",
+  "version": "1.0.0",
+  "type": "cocapn-vessel",
+  "category": "lifestyle",
+  "description": "AI-powered Travlog companion",
+  "icon": "ship",
+  "endpoints": ["/", "/health", "/vessel.json"],
+  "deployment": {
+    "platform": "cloudflare-workers",
+    "url": "https://travlog-ai.casey-digennaro.workers.dev"
+  }
+}

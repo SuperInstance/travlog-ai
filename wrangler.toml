@@ -1,11 +1,11 @@
-account_id = "2bd99d5b13b2186382cd3dc995b0bb18"
+account_id = "049ff5e84ecf636b53b162cbb580aae6"
 name = "travlog-ai"
 main = "src/worker.ts"
 compatibility_date = "2024-01-01"
 
 [[kv_namespaces]]
 binding = "TRAVLOG_KV"
-id = "ce39a8a69ebc44abb0d518ce1a26fae7"
+id = "fa628f33a9c54f3789c4711a0351d6d7"
 
 [vars]
 AGENT_NAME = "TravLog"
