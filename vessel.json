@@ -6,9 +6,17 @@
   "category": "lifestyle",
   "description": "AI-powered Travlog companion",
   "icon": "ship",
-  "endpoints": ["/", "/health", "/vessel.json"],
+  "endpoints": [
+    "/",
+    "/health",
+    "/vessel.json"
+  ],
   "deployment": {
     "platform": "cloudflare-workers",
     "url": "https://travlog-ai.casey-digennaro.workers.dev"
-  }
+  },
+  "capabilities": [
+    "travel-logging",
+    "trip-planning"
+  ]
 }
